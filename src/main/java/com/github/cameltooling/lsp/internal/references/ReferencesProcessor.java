@@ -72,12 +72,18 @@ public class ReferencesProcessor {
 		if (directId != null && !directId.isEmpty()) {
 			for (Entry<CamelURIInstance, Node> entry : allCamelUriInstance.entrySet()) {
 				CamelURIInstance camelURIInstance = entry.getKey();
-				for (TextDocumentItem docItem : textDocumentService.getAllOpenDocuments()) {
-					Location loc = parserXMLFileHelper.retrieveLocation(entry.getValue(), docItem);
-					if (isReference(camelURIInstanceToSearchReference, directId, camelURIInstance) && !references.contains(loc)) {
-						references.add(parserXMLFileHelper.retrieveLocation(entry.getValue(), docItem));
+//				for (TextDocumentItem docItem : textDocumentService.getAllOpenDocuments()) {
+//					Location loc = parserXMLFileHelper.retrieveLocation(entry.getValue(), docItem);
+					if (isReference(camelURIInstanceToSearchReference, directId, camelURIInstance)/* && !references.contains(loc)*/) {
+						System.out.println("reference added:");
+						System.out.println(camelURIInstance.getDocument().getUri());
+						System.out.println(camelURIInstance.getDocument().getText());
+						System.out.println(camelURIInstance.getStartPositionInUri());
+						System.out.println(camelURIInstance.getEndPositionInUri());
+						//System.out.println(docItem.getUri());
+						references.add(parserXMLFileHelper.retrieveLocation(entry.getValue(), camelURIInstance.getDocument()));
 					}
-				}
+//				}
 			}
 		}
 		return references;

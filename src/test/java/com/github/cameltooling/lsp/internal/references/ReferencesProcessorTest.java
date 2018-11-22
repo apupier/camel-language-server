@@ -213,7 +213,7 @@ public class ReferencesProcessorTest extends AbstractCamelLanguageServerTest {
 		Location loc = results.get(0);
 		assertThat(loc.getRange().getStart().getLine()).isEqualTo(3);
 		assertThat(loc.getRange().getEnd().getLine()).isEqualTo(3);
-		assertThat(loc.getUri()).contains(Arrays.asList("direct", "blubber"));
+		assertThat(loc.getUri()).isEqualTo("uri2.xml");
 	}
 	
 	private List<? extends Location> testRetrieveReferencesFromMultipleOpenedDocuments(String suffix, Position posInFirstDoc, int expectedResultCount, TextDocumentItem... documentItems) throws URISyntaxException, InterruptedException, ExecutionException {
