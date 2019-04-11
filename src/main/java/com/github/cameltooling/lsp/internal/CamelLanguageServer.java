@@ -26,6 +26,7 @@ import org.eclipse.lsp4j.MessageParams;
 import org.eclipse.lsp4j.MessageType;
 import org.eclipse.lsp4j.ServerCapabilities;
 import org.eclipse.lsp4j.TextDocumentSyncKind;
+import org.eclipse.lsp4j.jsonrpc.services.JsonNotification;
 import org.eclipse.lsp4j.services.LanguageClient;
 import org.eclipse.lsp4j.services.LanguageClientAware;
 import org.eclipse.lsp4j.services.LanguageServer;
@@ -113,6 +114,11 @@ public class CamelLanguageServer extends AbstractLanguageServer implements Langu
 
 	public LanguageClient getClient() {
 		return client;
+	}
+	
+	@JsonNotification("$/setTraceNotification")
+	public void setTraceNotification(Object object) {
+		// Ignore to avoid warning message logged when using VSCode/Theia clients
 	}
 	
 }
