@@ -222,7 +222,8 @@
 						<configuration>
 							<imageName>CamelLanguageServer</imageName>
 							<mainClass>com.github.cameltooling.lsp.internal.Runner</mainClass>
-							<buildArgs>-H:+ReportExceptionStackTraces -H:+MachODebugInfoTesting -H:+PrintAOTCompilation -H:+PrintUniverse -H:+PrintHeapHistogram -H:+PrintFeatures -H:TempDirectory=C:\test-native</buildArgs>
+							<!-- <buildArgs>-H:+ReportExceptionStackTraces -H:TempDirectory=C:\test-native</buildArgs> -->
+							<!-- <buildArgs>-H:+ReportExceptionStackTraces -H:+MachODebugInfoTesting -H:+PrintAOTCompilation -H:+PrintUniverse -H:+PrintHeapHistogram -H:+PrintFeatures -H:TempDirectory=C:\test-native</buildArgs> -->
 						</configuration>
         			</execution>
     			</executions>
