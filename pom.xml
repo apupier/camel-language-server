@@ -195,7 +195,8 @@
 				</configuration>
 			</plugin>
 			
-			<plugin>
+			<!-- need to be deactivated so that SubstrateVM can find the main class -->
+			<!-- <plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.1.0.RELEASE</version>
@@ -206,8 +207,26 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			
+			<plugin>
+    			<groupId>com.oracle.substratevm</groupId>
+				<artifactId>native-image-maven-plugin</artifactId>
+				<version>19.1.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>native-image</goal>
+						</goals>
+						<phase>package</phase>
+						<configuration>
+							<imageName>CamelLanguageServer</imageName>
+							<mainClass>com.github.cameltooling.lsp.internal.Runner</mainClass>
+							<buildArgs>-H:+ReportExceptionStackTraces -H:+MachODebugInfoTesting -H:+PrintAOTCompilation -H:+PrintUniverse -H:+PrintHeapHistogram -H:+PrintFeatures -H:TempDirectory=C:\test-native</buildArgs>
+						</configuration>
+        			</execution>
+    			</executions>
+			</plugin>
 		</plugins>
 
 		<pluginManagement>
