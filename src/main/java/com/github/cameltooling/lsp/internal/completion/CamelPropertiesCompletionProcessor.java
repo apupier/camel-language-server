@@ -26,7 +26,7 @@ import org.eclipse.lsp4j.Position;
 import org.eclipse.lsp4j.TextDocumentItem;
 
 import com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyFileEntryInstance;
-import com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParser;
+import com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectUtility;
 import com.github.cameltooling.lsp.internal.parser.ParserFileHelperUtil;
 
 public class CamelPropertiesCompletionProcessor {
@@ -42,7 +42,7 @@ public class CamelPropertiesCompletionProcessor {
 	public CompletableFuture<List<CompletionItem>> getCompletions(Position position) {
 		if (textDocumentItem != null) {
 			String line = new ParserFileHelperUtil().getLine(textDocumentItem, position);
-			if (new CamelKafkaConnectDSLParser().isInsideACamelUri(line, position.getCharacter())) {
+			if (new CamelKafkaConnectUtility().isInsideACamelUri(line, position.getCharacter())) {
 				return new CamelEndpointCompletionProcessor(textDocumentItem, camelCatalog).getCompletions(position);
 			} else {
 				return new CamelPropertyFileEntryInstance(camelCatalog, line).getCompletions(position.getCharacter());
