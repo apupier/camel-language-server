@@ -31,6 +31,7 @@ public class CamelKModelineOptionNames {
 	private static final List<CompletionItem> COMPLETION_ITEMS;
 	public static final String OPTION_NAME_TRAIT = "trait";
 	public static final String OPTION_NAME_DEPENDENCY = "dependency";
+	public static final String OPTION_NAME_RESOURCE = "resource";
 	
 	static {
 		OPTION_NAMES_WITH_DESCRIPTION = new HashMap<>();
@@ -42,7 +43,7 @@ public class CamelKModelineOptionNames {
 		OPTION_NAMES_WITH_DESCRIPTION.put("profile", "Trait profile used for deployment");
 		OPTION_NAMES_WITH_DESCRIPTION.put("property", "Add a camel property");
 		OPTION_NAMES_WITH_DESCRIPTION.put("property-file", "Bind a property file to the integration. E.g. \"property-file=integration.properties\"");
-		OPTION_NAMES_WITH_DESCRIPTION.put("resource", "Add a resource");
+		OPTION_NAMES_WITH_DESCRIPTION.put(OPTION_NAME_RESOURCE, "Add a resource");
 		OPTION_NAMES_WITH_DESCRIPTION.put(OPTION_NAME_TRAIT, "Configure a trait. E.g. \"trait=service.enabled=false\"");
 		COMPLETION_ITEMS = OPTION_NAMES_WITH_DESCRIPTION.entrySet().stream().map(options -> createCompletionItem(options.getKey(), options.getValue())).collect(Collectors.toList());
 	}

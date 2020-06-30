@@ -23,6 +23,7 @@ import java.util.concurrent.CompletableFuture;
 import org.apache.camel.catalog.CamelCatalog;
 import org.eclipse.lsp4j.CompletionItem;
 import org.eclipse.lsp4j.Hover;
+import org.eclipse.lsp4j.TextDocumentItem;
 import org.eclipse.lsp4j.jsonrpc.messages.Either;
 
 import com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineOptionNames;
@@ -34,14 +35,14 @@ public class CamelKModelineOption implements ILineRangeDefineable {
 	private ICamelKModelineOptionValue optionValue;
 	private int startCharacter;
 
-	public CamelKModelineOption(String option, int startCharacter) {
+	public CamelKModelineOption(TextDocumentItem textDocumentItem, String option, int startCharacter) {
 		int nameValueIndexSeparator = option.indexOf('=');
 		this.startCharacter = startCharacter;
 		this.optionName = option.substring(0, nameValueIndexSeparator != -1 ? nameValueIndexSeparator : option.length());
-		this.optionValue = createOptionValue(option, nameValueIndexSeparator);
+		this.optionValue = createOptionValue(textDocumentItem, option, nameValueIndexSeparator);
 	}
 
-	private ICamelKModelineOptionValue createOptionValue(String option, int nameValueIndexSeparator){
+	private ICamelKModelineOptionValue createOptionValue(TextDocumentItem textDocumentItem, String option, int nameValueIndexSeparator){
 		if(nameValueIndexSeparator != -1) {
 			String value = option.substring(nameValueIndexSeparator+1);
 			int startPosition = getStartPositionInLine() + optionName.length() + 1;
@@ -49,6 +50,8 @@ public class CamelKModelineOption implements ILineRangeDefineable {
 				return new CamelKModelineTraitOption(value, startPosition);
 			} else if(CamelKModelineOptionNames.OPTION_NAME_DEPENDENCY.equals(optionName)) {
 				return new CamelKModelineDependencyOption(value, startPosition);
+			} else if(CamelKModelineOptionNames.OPTION_NAME_RESOURCE.equals(optionName)) {
+				return new CamelKModelineResourceOption(textDocumentItem, value, startPosition);
 			} else {
 				return new GenericCamelKModelineOptionValue(value, startPosition);
 			}

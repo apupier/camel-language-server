@@ -27,7 +27,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 class CamelKModelineTest {
 	
 	String modelineString = "// camel-k: language=groovy";
-	CamelKModeline basicModeline = new CamelKModeline(modelineString);
+	CamelKModeline basicModeline = new CamelKModeline(null, modelineString);
 	
 	public static Stream<Arguments> data() {
 		return Stream.of(
@@ -39,28 +39,28 @@ class CamelKModelineTest {
 	@ParameterizedTest
 	@MethodSource("data")
 	void testGetLine(String modelineString) throws Exception {
-		CamelKModeline modeline = new CamelKModeline(modelineString);
+		CamelKModeline modeline = new CamelKModeline(null, modelineString);
 		assertThat(modeline.getLine()).isZero();
 	}
 
 	@ParameterizedTest
 	@MethodSource("data")
 	void testGetStartPositionInLine(String modelineString) throws Exception {
-		CamelKModeline modeline = new CamelKModeline(modelineString);
+		CamelKModeline modeline = new CamelKModeline(null, modelineString);
 		assertThat(modeline.getStartPositionInLine()).isZero();
 	}
 
 	@ParameterizedTest
 	@MethodSource("data")
 	void testGetEndPositionInLine(String modelineString) throws Exception {
-		CamelKModeline modeline = new CamelKModeline(modelineString);
+		CamelKModeline modeline = new CamelKModeline(null, modelineString);
 		assertThat(modeline.getEndPositionInLine()).isEqualTo(modelineString.length());
 	}
 	
 	@ParameterizedTest
 	@MethodSource("data")
 	void testGetNumberOfOptions(String modelineString) throws Exception {
-		CamelKModeline modeline = new CamelKModeline(modelineString);
+		CamelKModeline modeline = new CamelKModeline(null, modelineString);
 		assertThat(modeline.getOptions()).hasSize(1);
 	}
 
