@@ -21,6 +21,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import org.apache.camel.catalog.CamelCatalog;
+import org.apache.camel.util.StringHelper;
 import org.eclipse.lsp4j.CompletionItem;
 import org.eclipse.lsp4j.Hover;
 import org.eclipse.lsp4j.Position;
@@ -86,7 +87,7 @@ public class CamelComponentParameterPropertyInstance implements ILineRangeDefine
 			if (componentJSonSchema != null) {
 				ComponentModel componentModel = ModelHelper.generateComponentModel(componentJSonSchema, true);
 				if (componentModel != null) {
-					ComponentOptionModel componentOptionModel = componentModel.getComponentOption(getProperty());
+					ComponentOptionModel componentOptionModel = retrieveComponentOptionModel(componentModel);
 					if (componentOptionModel != null) {
 						String description = componentOptionModel.getDescription();
 						if (description != null) {
@@ -99,6 +100,15 @@ public class CamelComponentParameterPropertyInstance implements ILineRangeDefine
 			}
 			return null;
 		});
+	}
+
+	private ComponentOptionModel retrieveComponentOptionModel(ComponentModel componentModel) {
+		String property = getProperty();
+		ComponentOptionModel componentOptionModel = componentModel.getComponentOption(property);
+		if(componentOptionModel == null && property.contains("-")) {
+			componentOptionModel = componentModel.getComponentOption(StringHelper.dashToCamelCase(property));
+		}
+		return componentOptionModel;
 	}
 
 }
