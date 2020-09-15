@@ -1,0 +1,3337 @@
+[
+{
+  "name":"com.github.cameltooling.lsp.internal.AbstractCamelLanguageServerTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.AbstractLanguageServer",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelCatalogVersionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelExtraComponentTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServer",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerRobustnessTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerTest$Yaml",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelTextDocumentService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelTextDocumentServiceTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.CamelWorkspaceService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.DummyConstants",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RangeChecker",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.Runner",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerHelpTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerHelpTest$$Lambda$561/0x00000008403bcc40",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest$$Lambda$727/0x000000084053c440",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest$$Lambda$728/0x000000084053b840",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest$$Lambda$487/0x00000008401ea840",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest$1",
+  "methods":[{"name":"onOpen","parameterTypes":["javax.websocket.Session","javax.websocket.EndpointConfig"] }]
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.TestExtraComponentUtil",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.TestLogAppender",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.BooleanErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.BooleanErrorMsgTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.CamelDiagnosticMessage",
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.EnumErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.EnumErrorMsgTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.IntegerErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.IntegerErrorMsgTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.InvalidDurationErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.LenientOptionMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.NotConsumerOnlyErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.NotProducerOnlyErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.NumberErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.NumberErrorMsgTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.ReferenceErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.ReferenceErrorMsgTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.UnknownComponentErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.UnknownErrorMsg",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.util.ModelHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.util.ModelHelperTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.util.StringUtils",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.catalog.util.StringUtilsTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.AbstractQuickfix",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfix",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest$$Lambda$770/0x00000008405b9840",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest$$Lambda$771/0x00000008405b9c40",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfix",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest$$Lambda$776/0x00000008405bf040",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest$$Lambda$777/0x00000008405bf440",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelCompletionInsertAndReplaceTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentIdsCompletionsFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionBooleanValuesTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionEnumerationValuesTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionNamesCompletionFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionValuesCompletionsFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionsCompletionsTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentSchemesCompletionsFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelDeprecationIndicatorInCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointCompletionProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointOptionDuplicateTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointUriCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelLanguageServerCompletionPositionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelOptionNamesCompletionsFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelOptionValuesCompletionsFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CamelPropertiesCompletionProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CompleteIdOnDirectEndpointsTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.CompletionResolverUtils",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.FilterPredicateUtils",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.AbstractCamelPropertiesComponentOptionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionBooleanValuesCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionDashedNameCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionEnumerationValuesCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionNameCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesGroupPropertyCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesTopLevelCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelComponentPropertyTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelOpenAPITest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelPropertyFileTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelResourceTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCompletionprocessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineDependencyCompletionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineOptionNames",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineTraitDefinitionNameTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineTraitPropertyNameTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKTraitManager",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.TraitDefinition",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.TraitDefinition[]"
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.completion.modeline.TraitProperty",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.definition.DefinitionProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.definition.DefinitionProcessorTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest$$Lambda$826/0x00000008405d8040",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest$$Lambda$827/0x00000008405d8840",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest$$Lambda$829/0x00000008405d9040",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest$$Lambda$830/0x00000008405d9840",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelKModelineDiagnosticService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelKModelineDiagnosticTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelPropertiesDiagnosticTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.ConfigurationPropertiesDiagnosticService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.DiagnosticRunner",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.DiagnosticService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.diagnostic.EndpointDiagnosticService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.documentsymbol.DocumentSymbolProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.documentsymbol.DocumentSymbolProcessorTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineCamelComponentDependencyTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineComponentPropertyHoverTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineHoverProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineOptionNamesHoverTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineTraitHoverTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelLanguageServerHoverTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelPropertiesFileHoverProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelPropertiesFileHoverTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelURIHoverFuture",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.hover.CamelURIHoverProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelComponentAndPathUriInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelComponentURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelURIInstanceTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelUriElementInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.DSLModelHelper",
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.ILineRangeDefineable",
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.JavaDSLModelHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.OptionParamKeyURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.OptionParamURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.OptionParamValueURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.PathParamURIInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.PropertiesDSLModelHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.ReferenceUtils",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.XMLDSLModelHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.YamlDSLModelHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelComponentNamePropertyInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelComponentParameterPropertyInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelComponentPropertyKey",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelGroupPropertyKey",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyEntryInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyEntryInstanceTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyKeyInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyValueInstance",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.DashedCaseDetector",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.DashedCaseDetectorTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModeline",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineDependencyOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineLocalResourceRelatedOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineOpenAPIOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineOptionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelinePropertyFileOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelinePropertyOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineResourceOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitDefinition",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitDefinitionProperty",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitOption",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitOptionTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.GenericCamelKModelineOptionValue",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.modelinemodel.ICamelKModelineOptionValue",
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKGroovyDSLParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKJSDSLParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKKotlinDSLParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKModelineParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKYamlDSLParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKYamlDSLParserTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParser",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParserTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaUtil",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserFileHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserFileHelperFactory",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserFileHelperUtil",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserJavaFileHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserXMLFileHelper",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.parser.ParserXMLFileHelperTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.references.MultiDocumentReferencesProcessorTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.references.ReferencesProcessor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.references.ReferencesProcessorTest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.websocket.CamelLSPWebSocketEndpoint",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.cameltooling.lsp.internal.websocket.CamelLSPWebSocketServerConfigProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson.internal.LinkedTreeMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.HmacCore$HmacSHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsKeyMaterialGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsPrfGenerator$V12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"groovy.grape.GrapeEngine",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.grape.GrapeIvy",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_closure1",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_closure1$_closure17",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_getDependencies_closure6",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_getDependencies_closure7",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_getDependencies_closure8",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_resolve_closure13",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.GrapeIvy$_resolve_closure14",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.IvyGrabRecord",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.grape.IvyGrabRecord[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.Buildable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Closure",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Closure$1",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.ExpandoMetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.GString",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GString$1",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.GroovyCallable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GroovyClassLoader",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.GroovyClassLoader$addURL",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"groovy.lang.GroovyObject",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GroovyObjectSupport",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GroovyResourceLoader",
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GroovySystem"
+},
+{
+  "name":"groovy.lang.MetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.MetaClassImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.MetaMethod",
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.MetaObjectProtocol",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.MetaProperty",
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.MutableMetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Range",
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Reference",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.Writable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.groovydoc.GroovydocHolder",
+  "allPublicMethods":true
+},
+{
+  "name":"groovyjarjarasm.asm.Opcodes",
+  "allPublicMethods":true
+},
+{
+  "name":"java.beans.PropertyVetoException"
+},
+{
+  "name":"java.io.Closeable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.DataInput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.DataOutput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.File",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.io.FileFilter",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.FilenameFilter",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.Flushable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.InputStream",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"close","parameterTypes":[] }]
+},
+{
+  "name":"java.io.ObjectInput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.ObjectOutput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.ObjectStreamConstants",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.OutputStream",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"flush","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.io.Reader",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"read","parameterTypes":["java.nio.CharBuffer"] }
+  ]
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.Writer",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"append","parameterTypes":["char"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence","int","int"] }, 
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"flush","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.AbstractStringBuilder",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"append","parameterTypes":["char"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence","int","int"] }, 
+    {"name":"charAt","parameterTypes":["int"] }, 
+    {"name":"length","parameterTypes":[] }, 
+    {"name":"subSequence","parameterTypes":["int","int"] }, 
+    {"name":"toString","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Appendable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.AutoCloseable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.CharSequence",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Class",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.ClassLoader",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Class[]"
+},
+{
+  "name":"java.lang.Cloneable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Enum",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"compareTo","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"java.lang.Exception",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Integer",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Long",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Module"
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Object[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Process",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Readable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Runnable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.RuntimeException",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.String",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.String[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.System",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Thread",
+  "methods":[{"name":"getContextClassLoader","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Throwable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Throwable$PrintStreamOrWriter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.reflect.AccessibleObject",
+  "fields":[{"name":"override"}],
+  "methods":[{"name":"getAnnotations","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedElement",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Constructor[]"
+},
+{
+  "name":"java.lang.reflect.Executable",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"getAnnotation","parameterTypes":["java.lang.Class"] }, 
+    {"name":"getDeclaredAnnotations","parameterTypes":[] }, 
+    {"name":"getDeclaringClass","parameterTypes":[] }, 
+    {"name":"getModifiers","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getTypeParameters","parameterTypes":[] }, 
+    {"name":"isSynthetic","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.reflect.GenericDeclaration",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Member",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Type",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.TypeVariable[]"
+},
+{
+  "name":"java.net.URI",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.net.URI[]"
+},
+{
+  "name":"java.net.URL",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.net.URLClassLoader",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.net.URLStreamHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.net.URLStreamHandlerFactory",
+  "allPublicMethods":true
+},
+{
+  "name":"java.nio.Buffer",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"isReadOnly","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"array","parameterTypes":[] }, 
+    {"name":"arrayOffset","parameterTypes":[] }, 
+    {"name":"compareTo","parameterTypes":["java.lang.Object"] }, 
+    {"name":"duplicate","parameterTypes":[] }, 
+    {"name":"hasArray","parameterTypes":[] }, 
+    {"name":"isDirect","parameterTypes":[] }, 
+    {"name":"slice","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.nio.charset.Charset",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"compareTo","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureClassLoader",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.interfaces.ECPrivateKey"
+},
+{
+  "name":"java.security.interfaces.ECPublicKey"
+},
+{
+  "name":"java.security.interfaces.RSAPrivateKey"
+},
+{
+  "name":"java.security.interfaces.RSAPublicKey"
+},
+{
+  "name":"java.sql.Date"
+},
+{
+  "name":"java.sql.Timestamp"
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.AbstractList",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.AbstractSet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.ArrayList",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.Collection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Comparator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.Dictionary",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Enumeration",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.EventListener",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.HashMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.HashMap$KeySet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.HashSet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Iterator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.LinkedHashSet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.List",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Map",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Map$Entry",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Map[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.Queue",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.RandomAccess",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.ResourceBundle",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Set",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.SortedMap",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.SortedSet",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Spliterator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.TimeZone",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.WeakHashMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.concurrent.BlockingQueue",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.concurrent.Callable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.concurrent.Future",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.concurrent.LinkedTransferQueue",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.function.BiConsumer",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.BiFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.Consumer",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.DoubleFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.DoublePredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.Function",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.IntFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.IntPredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.LongFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.LongPredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.Predicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToDoubleFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToIntFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToLongFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.UnaryOperator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.regex.MatchResult",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.stream.BaseStream",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.stream.Stream",
+  "allPublicMethods":true
+},
+{
+  "name":"java_io_File$delete$1",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_io_File$exists$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_io_File$toURI",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_lang_Boolean$getBoolean",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_lang_Long$toString",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_lang_System$currentTimeMillis$1",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_lang_System$getProperty",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_lang_System$getProperty$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_net_URI$toURL",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_util_Map$containsKey$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_util_Map$keySet",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_util_Set$add",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_util_Set$clear$1",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"java_util_Set$removeAll$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"javax.naming.InitialContext",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"lookup","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"javax.websocket.Endpoint",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.camel.tooling.model.BaseOptionModel",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.camel.tooling.model.MainModel",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.camel.tooling.model.MainModel$MainGroupModel",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.camel.tooling.model.MainModel$MainOptionModel",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.commons.logging.LogFactory"
+},
+{
+  "name":"org.apache.commons.logging.impl.JBossLogFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.commons.logging.impl.WeakHashtable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.groovy.plugin.GroovyRunner",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.Ivy",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.Ivy$newInstance",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.Ivy$resolve$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.ant.AntBuildTrigger"
+},
+{
+  "name":"org.apache.ivy.ant.AntCallTrigger"
+},
+{
+  "name":"org.apache.ivy.core.IvyContext",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.LogOptions",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.cache.DefaultRepositoryCacheManager"
+},
+{
+  "name":"org.apache.ivy.core.cache.DefaultResolutionCacheManager",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.cache.RepositoryCacheManager",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.cache.ResolutionCacheManager",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.cache.ResolutionCacheManager$getResolvedIvyFileInCache",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.cache.ResolutionCacheManager$getResolvedIvyPropertiesInCache$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.check.CheckEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.deliver.DeliverEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.event.IvyListener",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.install.InstallEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.Artifact",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.Configuration",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.ConfigurationAware",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultDependencyArtifactDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor$addDependencyArtifact$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor$addDependencyConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor$addConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor$addDependency$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DependencyArtifactDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DependencyDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DependencyDescriptorMediator",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.DependencyDescriptor[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.InheritableItem",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.descriptor.ModuleDescriptor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.module.id.ModuleRevisionId",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.module.id.ModuleRevisionId$newInstance",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.pack.ArchivePacking",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.ivy.core.publish.PublishEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.report.ArtifactDownloadReport",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.report.ArtifactDownloadReport[]",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.report.ResolveReport",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.report.ResolveReport$hasError",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.repository.RepositoryManagementEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.resolve.ResolveEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.resolve.ResolveOptions",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.retrieve.RetrieveEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.settings.IvyPattern",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ivy.core.settings.IvySettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.core.settings.IvySettings$load",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.settings.IvySettings$setVariable$0",
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.groovy.runtime.callsite.CallSite","groovy.lang.MetaClassImpl","groovy.lang.MetaMethod","java.lang.Class[]","java.lang.reflect.Constructor"] }]
+},
+{
+  "name":"org.apache.ivy.core.settings.IvyVariableContainer",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.settings.NamedTimeoutConstraint"
+},
+{
+  "name":"org.apache.ivy.core.settings.TimeoutConstraint",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.settings.Validatable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.core.sort.SortEngineSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.osgi.core.OSGiManifestParser"
+},
+{
+  "name":"org.apache.ivy.osgi.obr.OBRResolver"
+},
+{
+  "name":"org.apache.ivy.osgi.repo.AggregatedOSGiResolver"
+},
+{
+  "name":"org.apache.ivy.osgi.updatesite.UpdateSiteResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.IvySettingsAware",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.circular.CircularDependencyStrategy",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.ConflictManager",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.FixedConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.LatestCompatibleConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.LatestConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.NoConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.RegexpConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.conflict.StrictConflictManager"
+},
+{
+  "name":"org.apache.ivy.plugins.latest.ArtifactInfo",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.latest.LatestLexicographicStrategy"
+},
+{
+  "name":"org.apache.ivy.plugins.latest.LatestRevisionStrategy"
+},
+{
+  "name":"org.apache.ivy.plugins.latest.LatestStrategy",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.latest.LatestTimeStrategy"
+},
+{
+  "name":"org.apache.ivy.plugins.lock.LockStrategy",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.matcher.GlobPatternMatcher",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.ivy.plugins.matcher.PatternMatcher",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.namespace.Namespace"
+},
+{
+  "name":"org.apache.ivy.plugins.namespace.NamespaceTransformer",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.parser.ModuleDescriptorParser",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.parser.ParserSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.report.ReportOutputter",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.repository.Resource",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.repository.TransferListener",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.AbstractResolver",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"abortPublishTransaction","parameterTypes":[] }, 
+    {"name":"beginPublishTransaction","parameterTypes":["org.apache.ivy.core.module.id.ModuleRevisionId","boolean"] }, 
+    {"name":"commitPublishTransaction","parameterTypes":[] }, 
+    {"name":"download","parameterTypes":["org.apache.ivy.core.cache.ArtifactOrigin","org.apache.ivy.core.resolve.DownloadOptions"] }, 
+    {"name":"dumpSettings","parameterTypes":[] }, 
+    {"name":"exists","parameterTypes":["org.apache.ivy.core.module.descriptor.Artifact"] }, 
+    {"name":"getLatest","parameterTypes":[] }, 
+    {"name":"getLatestStrategy","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getNamespace","parameterTypes":[] }, 
+    {"name":"getRepositoryCacheManager","parameterTypes":[] }, 
+    {"name":"listModules","parameterTypes":["org.apache.ivy.core.search.OrganisationEntry"] }, 
+    {"name":"listOrganisations","parameterTypes":[] }, 
+    {"name":"listRevisions","parameterTypes":["org.apache.ivy.core.search.ModuleEntry"] }, 
+    {"name":"listTokenValues","parameterTypes":["java.lang.String","java.util.Map"] }, 
+    {"name":"listTokenValues","parameterTypes":["java.lang.String[]","java.util.Map"] }, 
+    {"name":"locate","parameterTypes":["org.apache.ivy.core.module.descriptor.Artifact"] }, 
+    {"name":"reportFailure","parameterTypes":[] }, 
+    {"name":"reportFailure","parameterTypes":["org.apache.ivy.core.module.descriptor.Artifact"] }, 
+    {"name":"setLatestStrategy","parameterTypes":["org.apache.ivy.plugins.latest.LatestStrategy"] }, 
+    {"name":"setName","parameterTypes":["java.lang.String"] }, 
+    {"name":"setSettings","parameterTypes":["org.apache.ivy.plugins.resolver.ResolverSettings"] }, 
+    {"name":"validate","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.AbstractWorkspaceResolver",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"findIvyFileRef","parameterTypes":["org.apache.ivy.core.module.descriptor.DependencyDescriptor","org.apache.ivy.core.resolve.ResolveData"] }, 
+    {"name":"publish","parameterTypes":["org.apache.ivy.core.module.descriptor.Artifact","java.io.File","boolean"] }
+  ]
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.BintrayResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.ChainResolver",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.DependencyResolver",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.DualResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.FileSystemResolver",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.IBiblioResolver",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.IvyRepResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.JarResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.MirroredURLResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.ResolverSettings",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.SFTPResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.SshResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.URLResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.VfsResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.VsftpResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.packager.PackagerResolver"
+},
+{
+  "name":"org.apache.ivy.plugins.resolver.util.HasLatestStrategy",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.signer.SignatureGenerator",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.signer.bouncycastle.OpenPGPSignatureGenerator"
+},
+{
+  "name":"org.apache.ivy.plugins.trigger.LogTrigger"
+},
+{
+  "name":"org.apache.ivy.plugins.trigger.Trigger",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.version.ChainVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.ExactVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.LatestVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.MavenTimedSnapshotVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.PatternVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.SubVersionMatcher"
+},
+{
+  "name":"org.apache.ivy.plugins.version.VersionMatcher",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.plugins.version.VersionRangeMatcher"
+},
+{
+  "name":"org.apache.ivy.util.AbstractMessageLogger",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.util.DefaultMessageLogger",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.util.Message",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.apache.ivy.util.MessageLogger",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.util.extendable.DefaultExtendableItem",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.util.extendable.ExtendableItem",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.util.extendable.UnmodifiableExtendableItem",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.ivy.util.filter.Filter",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.Appender",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.AppenderSkeleton",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.Category"
+},
+{
+  "name":"org.apache.log4j.CategoryKey"
+},
+{
+  "name":"org.apache.log4j.FileAppender",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.Layout",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.LogManager"
+},
+{
+  "name":"org.apache.log4j.Logger"
+},
+{
+  "name":"org.apache.log4j.PatternLayout",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.log4j.Priority"
+},
+{
+  "name":"org.apache.log4j.RollingFileAppender",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.log4j.WriterAppender",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.log4j.config.PropertySetter"
+},
+{
+  "name":"org.apache.log4j.helpers.Loader"
+},
+{
+  "name":"org.apache.log4j.spi.OptionHandler",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apiguardian.api.API",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.ast.NodeMetaDataHandler",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.DefaultGroovyMethods",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.DefaultGroovyMethodsSupport",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.DefaultGroovyStaticMethods",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.GStringImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.GeneratedClosure",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.callsite.CallSite",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1125",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1129",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1173",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1174",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1175",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1176",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1177",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1210",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$1212",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$164",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$195",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$200",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$202",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$229",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$231",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$305",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$309",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$31",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$32",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$33",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$403",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$406",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$44",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$441",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$498",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$499",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$500",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$544",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$545",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$546",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$547",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$548",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$549",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$56",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$57",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$585",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$586",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$597",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$598",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgm$611",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","org.codehaus.groovy.reflection.CachedClass","java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberDiv",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberMinus",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberMultiply",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberPlus",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.BooleanArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.BooleanArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.CharacterArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.CharacterArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.DoubleArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.DoubleArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.FloatArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.FloatArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ShortArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ShortArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.vmplugin.v8.PluginDefaultGroovyMethods",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.vmplugin.v9.Java9",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.lsp4j.Location",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"getRange","parameterTypes":[] }, 
+    {"name":"getUri","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.eclipse.lsp4j.Position",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"getCharacter","parameterTypes":[] }, 
+    {"name":"getLine","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.eclipse.lsp4j.Range",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"getEnd","parameterTypes":[] }, 
+    {"name":"getStart","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.eclipse.lsp4j.adapters.CodeActionResponseAdapter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.lsp4j.adapters.DocumentSymbolResponseAdapter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.lsp4j.adapters.LocationLinkListAdapter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.lsp4j.adapters.PrepareRenameResponseAdapter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.lsp4j.services.LanguageClient",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.lsp4j.services.LanguageClientAware",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.eclipse.lsp4j.services.LanguageServer",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.eclipse.lsp4j.services.TextDocumentService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.eclipse.lsp4j.services.WorkspaceService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.eclipse.lsp4j.websocket.WebSocketEndpoint",
+  "methods":[{"name":"onOpen","parameterTypes":["javax.websocket.Session","javax.websocket.EndpointConfig"] }]
+},
+{
+  "name":"org.glassfish.grizzly.ConnectionProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.IOEventLifeCycleListener[]"
+},
+{
+  "name":"org.glassfish.grizzly.TransportProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.ContentEncoding[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.HttpProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.TransferEncoding[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.server.AddOn[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.server.HttpServerProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.http.server.filecache.FileCacheProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.memory.MemoryProbe[]"
+},
+{
+  "name":"org.glassfish.grizzly.threadpool.ThreadPoolProbe[]"
+},
+{
+  "name":"org.glassfish.tyrus.container.grizzly.client.GrizzlyClientContainer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.container.grizzly.server.GrizzlyServerContainer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.InputStreamDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.NoOpByteArrayCoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.NoOpByteBufferCoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.NoOpTextCoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$BooleanDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$ByteDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$CharacterDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$DoubleDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$FloatDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$IntegerDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$LongDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.PrimitiveDecoders$ShortDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.tyrus.core.coder.ReaderDecoder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.forge.roaster._shade.org.eclipse.core.internal.runtime.Messages",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.jboss.logmanager.LogManager"
+},
+{
+  "name":"org.junit.jupiter.api.Disabled",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.Nested",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.Test",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.TestTemplate",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.extension.ExtendWith",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.params.ParameterizedTest",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.params.ParameterizedTestExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.junit.jupiter.params.provider.ArgumentsProvider",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.params.provider.ArgumentsSource",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.params.provider.MethodArgumentsProvider",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.junit.jupiter.params.provider.MethodSource",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.params.support.AnnotationConsumer",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.platform.commons.annotation.Testable",
+  "allPublicMethods":true
+},
+{
+  "name":"org.junit.platform.launcher.core.DefaultLauncher",
+  "methods":[{"name":"execute","parameterTypes":["org.junit.platform.launcher.TestPlan","org.junit.platform.launcher.TestExecutionListener[]"] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[
+    {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, 
+    {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }
+  ]
+},
+{
+  "name":"sun.security.pkcs.SignerInfo[]"
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$DualFormatJKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA384withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA512withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.util.ObjectIdentifier"
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificateExtensions"
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+}
+]
