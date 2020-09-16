@@ -1,28 +1,8 @@
 [
 {
-  "name":"com.github.cameltooling.lsp.internal.AbstractCamelLanguageServerTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.AbstractLanguageServer",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.CamelCatalogVersionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.CamelExtraComponentTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.CamelLanguageServer",
@@ -30,50 +10,12 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerRobustnessTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.CamelLanguageServerTest$Yaml",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.CamelTextDocumentService",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.CamelTextDocumentServiceTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.CamelWorkspaceService",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.DummyConstants",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RangeChecker",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
@@ -83,67 +25,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.RunnerHelpTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerHelpTest$$Lambda$561/0x00000008403bcc40",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest$$Lambda$727/0x000000084053c440",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerStandardIOTest$$Lambda$728/0x000000084053b840",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest$$Lambda$487/0x00000008401ea840",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.RunnerWebSocketTest$1",
-  "methods":[{"name":"onOpen","parameterTypes":["javax.websocket.Session","javax.websocket.EndpointConfig"] }]
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.TestExtraComponentUtil",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.TestLogAppender",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.BooleanErrorMsg",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.BooleanErrorMsgTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.CamelDiagnosticMessage",
@@ -155,23 +39,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.EnumErrorMsgTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.IntegerErrorMsg",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.IntegerErrorMsgTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.InvalidDurationErrorMsg",
@@ -199,23 +69,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.NumberErrorMsgTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.ReferenceErrorMsg",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.ReferenceErrorMsgTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.catalog.diagnostic.UnknownComponentErrorMsg",
@@ -233,23 +89,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.catalog.util.ModelHelperTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.catalog.util.StringUtils",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.catalog.util.StringUtilsTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.codeactions.AbstractQuickfix",
@@ -262,65 +104,14 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest$$Lambda$770/0x00000008405b9840",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.codeactions.InvalidEnumQuickfixTest$$Lambda$771/0x00000008405b9c40",
-  "allDeclaredMethods":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfix",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest$$Lambda$776/0x00000008405bf040",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.codeactions.UnknownPropertyQuickfixTest$$Lambda$777/0x00000008405bf440",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelCompletionInsertAndReplaceTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentIdsCompletionsFuture",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionBooleanValuesTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionEnumerationValuesTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionNamesCompletionFuture",
@@ -333,49 +124,14 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentOptionsCompletionsTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.CamelComponentSchemesCompletionsFuture",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelDeprecationIndicatorInCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointCompletionProcessor",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointOptionDuplicateTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelEndpointUriCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.CamelLanguageServerCompletionPositionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.completion.CamelOptionNamesCompletionsFuture",
@@ -393,13 +149,6 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.completion.CompleteIdOnDirectEndpointsTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.CompletionResolverUtils",
   "allDeclaredMethods":true,
   "allPublicMethods":true
@@ -410,125 +159,14 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.AbstractCamelPropertiesComponentOptionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionBooleanValuesCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionDashedNameCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionEnumerationValuesCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesComponentOptionNameCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesGroupPropertyCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.camelapplicationproperties.CamelPropertiesTopLevelCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelComponentPropertyTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelOpenAPITest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelPropertyFileTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCamelResourceTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineCompletionprocessor",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineDependencyCompletionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineOptionNames",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineTraitDefinitionNameTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKModelineTraitPropertyNameTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.completion.modeline.CamelKTraitManager",
@@ -558,59 +196,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.definition.DefinitionProcessorTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest$$Lambda$826/0x00000008405d8040",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.AbstractDiagnosticTest$$Lambda$827/0x00000008405d8840",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest$$Lambda$829/0x00000008405d9040",
-  "allDeclaredMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelDiagnosticTest$$Lambda$830/0x00000008405d9840",
-  "allDeclaredMethods":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelKModelineDiagnosticService",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelKModelineDiagnosticTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.diagnostic.CamelPropertiesDiagnosticTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.diagnostic.ConfigurationPropertiesDiagnosticService",
@@ -638,63 +226,14 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.documentsymbol.DocumentSymbolProcessorTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineCamelComponentDependencyTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineComponentPropertyHoverTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineHoverProcessor",
   "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineOptionNamesHoverTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelKModelineTraitHoverTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelLanguageServerHoverTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.hover.CamelPropertiesFileHoverProcessor",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.hover.CamelPropertiesFileHoverTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.hover.CamelURIHoverFuture",
@@ -720,13 +259,6 @@
   "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelURIInstance",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelURIInstanceTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.instancemodel.CamelUriElementInstance",
@@ -812,13 +344,6 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyEntryInstanceTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.CamelPropertyKeyInstance",
   "allDeclaredMethods":true,
   "allPublicMethods":true
@@ -832,13 +357,6 @@
   "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.DashedCaseDetector",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.instancemodel.propertiesfile.DashedCaseDetectorTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModeline",
@@ -866,13 +384,6 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineOptionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelinePropertyFileOption",
   "allDeclaredMethods":true,
   "allPublicMethods":true
@@ -888,13 +399,6 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitDefinition",
   "allDeclaredMethods":true,
   "allPublicMethods":true
@@ -908,13 +412,6 @@
   "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitOption",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.modelinemodel.CamelKModelineTraitOptionTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.modelinemodel.GenericCamelKModelineOptionValue",
@@ -951,23 +448,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.parser.CamelKYamlDSLParserTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParser",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParserTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.parser.CamelKafkaUtil",
@@ -1000,30 +483,9 @@
   "allPublicMethods":true
 },
 {
-  "name":"com.github.cameltooling.lsp.internal.parser.ParserXMLFileHelperTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.references.MultiDocumentReferencesProcessorTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
-},
-{
   "name":"com.github.cameltooling.lsp.internal.references.ReferencesProcessor",
   "allDeclaredMethods":true,
   "allPublicMethods":true
-},
-{
-  "name":"com.github.cameltooling.lsp.internal.references.ReferencesProcessorTest",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true
 },
 {
   "name":"com.github.cameltooling.lsp.internal.websocket.CamelLSPWebSocketEndpoint",
@@ -2952,10 +2414,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"org.eclipse.lsp4j.Location",
   "allDeclaredFields":true,
   "methods":[
@@ -3122,64 +2580,6 @@
 },
 {
   "name":"org.jboss.logmanager.LogManager"
-},
-{
-  "name":"org.junit.jupiter.api.Disabled",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.Nested",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.Test",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.TestTemplate",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.api.extension.ExtendWith",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.ParameterizedTest",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.ParameterizedTestExtension",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.junit.jupiter.params.provider.ArgumentsProvider",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.provider.ArgumentsSource",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.provider.MethodArgumentsProvider",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.junit.jupiter.params.provider.MethodSource",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.jupiter.params.support.AnnotationConsumer",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.platform.commons.annotation.Testable",
-  "allPublicMethods":true
-},
-{
-  "name":"org.junit.platform.launcher.core.DefaultLauncher",
-  "methods":[{"name":"execute","parameterTypes":["org.junit.platform.launcher.TestPlan","org.junit.platform.launcher.TestExecutionListener[]"] }]
 },
 {
   "name":"sun.misc.Unsafe",
