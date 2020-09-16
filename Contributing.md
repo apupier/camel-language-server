@@ -23,6 +23,12 @@ detect the projects and import it properly.
     $ mvn clean verify
 ````
 
+# Building native Image
+
+- Requires graalVM
+- specific launch configuration has been provided to help generating native config files. beware that test classes must be removed manually.
+- currently going without Camel version change possibilities as it implies an infinite possibility of dynamic classes loading.
+
 # How to release
 
 * Ensure pom is using only non-snapshot dependencies
