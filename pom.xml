@@ -166,6 +166,8 @@
 			</build>
 			<properties>
 				<quarkus.package.type>native</quarkus.package.type>
+				<!-- -H:+AllowIncompleteClasspath is a workaround for test class that are included in the config when generating the files while playing the tests -->
+				<quarkus.native.additional-build-args>-H:+AllowIncompleteClasspath</quarkus.native.additional-build-args>
 			</properties>
 		</profile>
 
