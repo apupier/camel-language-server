@@ -40,6 +40,8 @@ public class DocumentSymbolProcessor {
 				return new DocumentSymbolXMLProcessor(textDocumentItem).getSymbolInformations();
 			} else if (textDocumentItem.getUri().endsWith(".java")) {
 				return new DocumentSymbolJavaProcessor(textDocumentItem).getSymbolInformations();
+			} else if (textDocumentItem.getUri().endsWith(".properties")) {
+				return new DocumentSymbolPropertiesProcessor(textDocumentItem).getSymbolInformations();
 			}
 			return symbolInformations;
 		});

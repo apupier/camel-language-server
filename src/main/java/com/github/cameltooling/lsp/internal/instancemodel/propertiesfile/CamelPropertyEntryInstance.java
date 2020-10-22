@@ -104,5 +104,13 @@ public class CamelPropertyEntryInstance implements ILineRangeDefineable {
 		return textDocumentItem != null
 				&& new DashedCaseDetector().hasDashedCaseInCamelComponentOption(textDocumentItem.getText());
 	}
+	
+	public String getPropertyKey() {
+		return camelPropertyKeyInstance.getCamelPropertyKey();
+	}
+
+	public String getPropertyValue() {
+		return camelPropertyValueInstance.getCamelPropertyFileValue();
+	}
 
 }

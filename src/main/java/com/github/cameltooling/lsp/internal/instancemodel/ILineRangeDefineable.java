@@ -29,6 +29,10 @@ public interface ILineRangeDefineable {
 	public int getStartPositionInLine();
 	public int getEndPositionInLine();
 	
+	public default Range getRange() {
+		return new Range(new Position(getLine(), getStartPositionInLine()), new Position(getLine(), getEndPositionInLine()));
+	}
+	
 	public default Hover createHover(String description) {
 		Hover hover = new Hover();
 		hover.setContents(Collections.singletonList((Either.forLeft(description))));
