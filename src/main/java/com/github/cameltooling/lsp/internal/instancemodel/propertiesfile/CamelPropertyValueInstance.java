@@ -16,11 +16,16 @@
  */
 package com.github.cameltooling.lsp.internal.instancemodel.propertiesfile;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 import org.apache.camel.catalog.CamelCatalog;
+import org.apache.camel.kafkaconnector.model.CamelKafkaConnectorModel;
 import org.eclipse.lsp4j.CompletionItem;
+import org.eclipse.lsp4j.Diagnostic;
 import org.eclipse.lsp4j.Hover;
 import org.eclipse.lsp4j.Position;
 import org.eclipse.lsp4j.TextDocumentItem;
@@ -32,7 +37,10 @@ import com.github.cameltooling.lsp.internal.completion.CamelKafkaConnectorClassC
 import com.github.cameltooling.lsp.internal.completion.CamelKafkaConverterCompletionProcessor;
 import com.github.cameltooling.lsp.internal.completion.KafkaConnectTransformerTypeCompletionProcessor;
 import com.github.cameltooling.lsp.internal.hover.CamelURIHoverProcessor;
+import com.github.cameltooling.lsp.internal.instancemodel.CamelURIInstance;
 import com.github.cameltooling.lsp.internal.instancemodel.ILineRangeDefineable;
+import com.github.cameltooling.lsp.internal.instancemodel.PropertiesDSLModelHelper;
+import com.github.cameltooling.lsp.internal.parser.CamelKafkaConnectDSLParser;
 import com.github.cameltooling.lsp.internal.parser.CamelKafkaUtil;
 
 /**
@@ -106,6 +114,25 @@ public class CamelPropertyValueInstance implements ILineRangeDefineable {
 		} else {
 			return CompletableFuture.completedFuture(null);
 		}
+	}
+	
+	protected Set<Diagnostic> validate(CompletableFuture<CamelCatalog> camelCatalog, CamelKafkaConnectorCatalogManager camelKafkaConnectorManager) {
+		if (new CamelKafkaUtil().isCamelURIForKafka(key.getCamelPropertyKey())) {
+			String connectorClass = new CamelKafkaUtil().findConnectorClass(textDocumentItem);
+			if (connectorClass != null) {
+				CamelURIInstance camelUri = new CamelKafkaConnectDSLParser()
+						.createCamelURIInstance(textDocumentItem,new Position(getLine(), getStartPositionInLine()), camelPropertyValue);
+				String componentName = camelUri.getComponentName();
+				if (componentName != null) {
+					Optional<CamelKafkaConnectorModel> connectorModel = camelKafkaConnectorManager.findConnectorModel(connectorClass);
+					if (connectorModel.isPresent()) {
+						//TODO: how to get the corresponding Camel syntax?
+						return Collections.singleton(new Diagnostic());
+					}
+				}
+			}
+		}
+		return Collections.emptySet();
 	}
 
 }

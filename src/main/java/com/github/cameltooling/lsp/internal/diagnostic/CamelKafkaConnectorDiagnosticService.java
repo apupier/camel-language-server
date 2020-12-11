@@ -26,7 +26,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 
+import org.apache.camel.catalog.CamelCatalog;
 import org.apache.camel.kafkaconnector.model.CamelKafkaConnectorModel;
 import org.eclipse.lsp4j.Diagnostic;
 import org.eclipse.lsp4j.Position;
@@ -38,8 +40,8 @@ import com.github.cameltooling.lsp.internal.parser.CamelKafkaUtil;
 
 public class CamelKafkaConnectorDiagnosticService extends DiagnosticService {
 
-	protected CamelKafkaConnectorDiagnosticService(CamelKafkaConnectorCatalogManager camelKafkaConnectorCatalogManager) {
-		super(null, camelKafkaConnectorCatalogManager);
+	protected CamelKafkaConnectorDiagnosticService(CompletableFuture<CamelCatalog> camelCatalog, CamelKafkaConnectorCatalogManager camelKafkaConnectorCatalogManager) {
+		super(camelCatalog, camelKafkaConnectorCatalogManager);
 	}
 
 	public Collection<Diagnostic> compute(String camelText, TextDocumentItem documentItem) {
@@ -61,7 +63,7 @@ public class CamelKafkaConnectorDiagnosticService extends DiagnosticService {
 					}
 					
 					for (CamelPropertyEntryInstance camelPropertyEntryInstance : camelPropertyEntries) {
-						lspDiagnostics.addAll(camelPropertyEntryInstance.validate(camelKafkaConnectorCatalogManager, camelPropertyEntries));
+						lspDiagnostics.addAll(camelPropertyEntryInstance.validate(camelKafkaConnectorCatalogManager, camelPropertyEntries, camelCatalog));
 					}
 					
 					return lspDiagnostics;

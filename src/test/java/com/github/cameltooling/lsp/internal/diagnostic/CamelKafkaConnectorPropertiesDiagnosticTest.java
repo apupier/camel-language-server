@@ -21,6 +21,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.apache.camel.kafkaconnector.catalog.CamelKafkaConnectorCatalog;
@@ -43,6 +44,13 @@ class CamelKafkaConnectorPropertiesDiagnosticTest extends AbstractDiagnosticTest
 	@Test
 	void testInvalidMixOfUrlPropertyAndEndpointProperty() throws Exception {
 		testDiagnostic("ckc-sink-invalid-mix-url-and-endpoint", 1);
+		Diagnostic diagnostic = lastPublishedDiagnostics.getDiagnostics().get(0);
+		new RangeChecker().check(diagnostic.getRange(), 2, 0, 2, 14);
+	}
+	
+	@Test
+	void testInvalidUrlForConnectorClassy() throws Exception {
+		testDiagnostic("ckc-sink-invalid-url-for-connector-class", 1);
 		Diagnostic diagnostic = lastPublishedDiagnostics.getDiagnostics().get(0);
 		new RangeChecker().check(diagnostic.getRange(), 2, 0, 2, 14);
 	}
@@ -90,5 +98,35 @@ class CamelKafkaConnectorPropertiesDiagnosticTest extends AbstractDiagnosticTest
 				.lines()
 				.map(String::trim)
 				.collect(Collectors.joining());
+	}
+	
+	@Override
+	protected Map<Object, Object> getInitializationOptions() {
+		String component = "{\n" + 
+				" \"component\": {\n" + 
+				"    \"kind\": \"component\",\n" + 
+				"    \"scheme\": \"test-sink\",\n" + 
+				"    \"syntax\": \"test-sink:withsyntax\",\n" + 
+				"    \"title\": \"A Component to test sink\",\n" + 
+				"    \"description\": \"Description of my component.\",\n" + 
+				"    \"label\": \"\",\n" + 
+				"    \"deprecated\": false,\n" + 
+				"    \"deprecationNote\": \"\",\n" + 
+				"    \"async\": false,\n" + 
+				"    \"consumerOnly\": true,\n" + 
+				"    \"producerOnly\": false,\n" + 
+				"    \"lenientProperties\": false,\n" + 
+				"    \"javaType\": \"org.test.AComponent\",\n" + 
+				"    \"firstVersion\": \"1.0.0\",\n" + 
+				"    \"groupId\": \"org.test\",\n" + 
+				"    \"artifactId\": \"camel-test-sink\",\n" + 
+				"    \"version\": \"3.0.0-RC3\"\n" + 
+				"  },\n" + 
+				"  \"componentProperties\": {\n" + 
+				"  },\n" + 
+				"  \"properties\": {\n" + 
+				"  }\n" + 
+				"}";
+		return createMapSettingsWithComponent(component);
 	}
 }

@@ -44,7 +44,7 @@ public class DiagnosticRunner {
 		endpointDiagnosticService = new EndpointDiagnosticService(camelCatalog);
 		configurationPropertiesDiagnosticService = new ConfigurationPropertiesDiagnosticService(camelCatalog);
 		camelKModelineDiagnosticService = new CamelKModelineDiagnosticService();
-		camelKafkaConnectorDiagnosticService = new CamelKafkaConnectorDiagnosticService(camelLanguageServer.getTextDocumentService().getCamelKafkaConnectorManager());
+		camelKafkaConnectorDiagnosticService = new CamelKafkaConnectorDiagnosticService(camelCatalog, camelLanguageServer.getTextDocumentService().getCamelKafkaConnectorManager());
 	}
 
 	public void compute(DidSaveTextDocumentParams params) {
