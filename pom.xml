@@ -333,5 +333,10 @@
 			<artifactId>commons-text</artifactId>
 			<version>${commons-text.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>io.kubernetes</groupId>
+			<artifactId>client-java-api</artifactId>
+			<version>12.0.0</version>
+		</dependency>
 	</dependencies>
 </project>
