@@ -36,6 +36,7 @@ import com.consol.citrus.kafka.embedded.EmbeddedKafkaServer;
 import com.consol.citrus.kafka.embedded.EmbeddedKafkaServerBuilder;
 import com.github.cameltooling.lsp.internal.AbstractCamelLanguageServerTest;
 import com.github.cameltooling.lsp.internal.CamelLanguageServer;
+import com.github.cameltooling.lsp.internal.settings.KafkaConnectionSettings;
 import com.github.cameltooling.lsp.internal.settings.SettingsManager;
 
 class KafkaTopicCompletionTest extends AbstractCamelLanguageServerTest {
@@ -44,7 +45,7 @@ class KafkaTopicCompletionTest extends AbstractCamelLanguageServerTest {
 
 	@AfterEach
 	public void after() throws IOException {
-		System.clearProperty(KafkaTopicCompletionProvider.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL);
+		System.clearProperty(KafkaConnectionSettings.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL);
 		if (kafkaServer != null) {
 			kafkaServer.stop();
 		}
@@ -65,7 +66,7 @@ class KafkaTopicCompletionTest extends AbstractCamelLanguageServerTest {
 	@Timeout(2)
 	void testInvalidConnectionUrl() throws Exception {
 		String connectionURL = "localhost:9091";
-		System.setProperty(KafkaTopicCompletionProvider.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL, connectionURL);
+		System.setProperty(KafkaConnectionSettings.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL, connectionURL);
 
 		List<CompletionItem> completions = retrieveCompletionForKafkaTopicPosition();
 
@@ -135,7 +136,7 @@ class KafkaTopicCompletionTest extends AbstractCamelLanguageServerTest {
 		kafkaServer = new EmbeddedKafkaServerBuilder().topics(topics).build();
 		kafkaServer.start();
 		String connectionURL = "localhost:" + kafkaServer.getKafkaServerPort();
-		System.setProperty(KafkaTopicCompletionProvider.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL, connectionURL);
+		System.setProperty(KafkaConnectionSettings.CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL, connectionURL);
 	}
 
 	private List<CompletionItem> retrieveCompletionForKafkaTopicPosition() throws URISyntaxException, InterruptedException, ExecutionException {

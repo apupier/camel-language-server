@@ -32,9 +32,12 @@ public class SettingsManager {
 	public static final String EXTRA_COMPONENTS = "extra-components";
 	public static final String CATALOG_RUNTIME_PROVIDER = "Camel catalog runtime provider";
 	public static final String KAKFA_CONNECTION_URL = "Kafka Connection URL";
+	public static final String KAKFA_CONNECTION_AUTHENTICATION_TYPE = "Kafka Connection Authentication Type";
+	public static final String KAKFA_CONNECTION_SASL_USERNAME = "Kafka Connection username";
+	public static final String KAKFA_CONNECTION_SASL_PASSWORD = "Kafka Connection password";
 	
 	private CamelTextDocumentService textDocumentService;
-	private String kafkaConnectionUrl;
+	private KafkaConnectionSettings kafkaConnectionSettings = new KafkaConnectionSettings();
 
 	public SettingsManager(CamelTextDocumentService textDocumentService) {
 		this.textDocumentService = textDocumentService;
@@ -55,7 +58,10 @@ public class SettingsManager {
 		List<?> extraComponents = getSetting(camelSetting, EXTRA_COMPONENTS, List.class);
 		String camelCatalogRuntimeProvider = getSetting(camelSetting, CATALOG_RUNTIME_PROVIDER, String.class);
 		textDocumentService.updateCatalog(camelCatalogVersion, camelCatalogRuntimeProvider, (List<Map<?, ?>>) extraComponents);
-		kafkaConnectionUrl = getSetting(camelSetting, KAKFA_CONNECTION_URL, String.class);
+		kafkaConnectionSettings.setKafkaConnectionUrl(getSetting(camelSetting, KAKFA_CONNECTION_URL, String.class));
+		kafkaConnectionSettings.setConnectionType(getSetting(camelSetting, KAKFA_CONNECTION_AUTHENTICATION_TYPE, String.class));
+		kafkaConnectionSettings.setUsername(getSetting(camelSetting, KAKFA_CONNECTION_SASL_USERNAME, String.class));
+		kafkaConnectionSettings.setPassword(getSetting(camelSetting, KAKFA_CONNECTION_SASL_PASSWORD, String.class));
 	}
 
 	private Map<?, ?> getSettings(Object settings) {
@@ -73,7 +79,7 @@ public class SettingsManager {
 		return null;
 	}
 
-	public String getKafkaConnectionUrl() {
-		return kafkaConnectionUrl;
+	public KafkaConnectionSettings getKafkaConnectionSettings() {
+		return kafkaConnectionSettings;
 	}
 }

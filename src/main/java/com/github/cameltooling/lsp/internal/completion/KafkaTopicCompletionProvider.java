@@ -27,7 +27,6 @@ import java.util.concurrent.TimeoutException;
 import java.util.stream.Collectors;
 
 import org.apache.kafka.clients.admin.Admin;
-import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.ListTopicsOptions;
 import org.eclipse.lsp4j.CompletionItem;
 import org.slf4j.Logger;
@@ -38,23 +37,12 @@ import com.github.cameltooling.lsp.internal.settings.SettingsManager;
 
 public class KafkaTopicCompletionProvider {
 	
-	/**
-	 * When launching a local Kafka cluster, this is the default connection provided.
-	 * Using it by default avoids users to specify a setting in this simple case.
-	 */
-	private static final String DEFAULT_CONNECTION = "localhost:9092";
-	public static final String CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL = "CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL";
-	
 	private static final Logger LOGGER = LoggerFactory.getLogger(KafkaTopicCompletionProvider.class);
 
 	public CompletableFuture<List<CompletionItem>> get(PathParamURIInstance pathParamURIInstance, SettingsManager settingsManager) {
-		String kafkaConnectionURl = settingsManager.getKafkaConnectionUrl();
-		if (kafkaConnectionURl == null) {
-			kafkaConnectionURl = System.getProperty(CAMEL_LANGUAGE_SERVER_KAFKA_CONNECTION_URL, DEFAULT_CONNECTION);
-		}
 		Admin adminClient = null;
 		try {
-			adminClient = Admin.create(Collections.singletonMap(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaConnectionURl));
+			adminClient = Admin.create(settingsManager.getKafkaConnectionSettings().generateClientConfigParameters());
 			ListTopicsOptions listTopicsOptions = new ListTopicsOptions();
 			listTopicsOptions.listInternal(true);
 			Set<String> topics = adminClient.listTopics(listTopicsOptions).names().get(500, TimeUnit.MILLISECONDS);
@@ -65,10 +53,10 @@ public class KafkaTopicCompletionProvider {
 			}).collect(Collectors.toList());
 			return CompletableFuture.completedFuture(completionItemsForKafkaTopics);
 		} catch (InterruptedException e) {
-			warnLog(kafkaConnectionURl, e);
+			warnLog(settingsManager.getKafkaConnectionSettings().getKafkaConnectionUrl(), e);
 			Thread.currentThread().interrupt();
 		} catch (ExecutionException | TimeoutException e) {
-			warnLog(kafkaConnectionURl, e);
+			warnLog(settingsManager.getKafkaConnectionSettings().getKafkaConnectionUrl(), e);
 		} finally {
 			if(adminClient != null) {
 				adminClient.close(Duration.ofMillis(50));
